@@ -1,7 +1,6 @@
 server {
     listen          80;
 #    listen          443 ssl;
-    server_name     admin-qa.adscab.iat.dom admin-qa.adscab.iat.opendev.ru;
 
     root /home/adscab-admin/application/current;
     index web/index.php;
