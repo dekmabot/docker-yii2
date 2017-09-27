@@ -1,13 +1,13 @@
 # Laravel Docker Image
 
-Docker image to run Laravel sites with or without ssl.
+Docker image to run Yii2 sites.
 
 ## Use
 
 You may use this image like this:
  
 ```bash
-docker run -d --name laravel dekmabot/docker-laravel
+docker run -d --name site-yii2 dekmabot/docker-yii2
 ```
 
 ## License
