@@ -4,7 +4,7 @@ MAINTAINER dekmabot@gmail.com
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends openssh-server supervisor curl
 RUN apt-get install -y --no-install-recommends mysql-client nginx composer nano cron libfontconfig1 libxrender1
-RUN apt-get install -y --no-install-recommends php php-fpm php-intl php-curl php-gd php-mcrypt php-json php7.0-mbstring php7.0-zip php7.0-dom php-mysql php-readline
+RUN apt-get install -y --no-install-recommends php php-fpm php-intl php-curl php-gd php-mcrypt php-json php7.0-mbstring php7.0-zip php7.0-dom php-mysql php-readline php-bcmath
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install -y nodejs
 
