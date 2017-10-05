@@ -27,6 +27,10 @@ server {
     location ~ ^/web/images {
     }
 
+    location ~ \.(js|css|png|jpg|gif|swf|ico|pdf|mov|fla|zip|rar)$ {
+        try_files $uri =404;
+    }
+
     location / {
         # try to serve file directly, fallback to app.php
         try_files $uri $uri/ /index.php?$args;
