@@ -3,7 +3,7 @@ server {
 #    listen          443 ssl;
 
     root /home/adscab-admin/application/current;
-    index web/index.php;
+    index index.php;
 #    ssl_certificate /etc/nginx/ssl/admin-qa.adscab.iat.opendev.ru.crt;
 #    ssl_certificate_key /etc/nginx/ssl/admin-qa.adscab.iat.opendev.ru.key;
 
