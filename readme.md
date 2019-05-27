@@ -1,4 +1,4 @@
-# Laravel Docker Image
+# Yii2 Docker Image
 
 Docker image to run Yii2 sites.
 
